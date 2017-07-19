@@ -2,10 +2,10 @@
 using UnityEditor;
 using UnityEditor.Callbacks;
 using System.IO;
-using UnityEditor.iOS.Xcode.New.Extensions;
 
 #if UNITY_IOS || UNITY_EDITOR
 using UnityEditor.iOS.Xcode.New;
+using UnityEditor.iOS.Xcode.New.Extensions;
 #endif
 
 namespace BuildBuddy
