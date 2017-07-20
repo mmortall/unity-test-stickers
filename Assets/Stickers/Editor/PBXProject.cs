@@ -1209,7 +1209,6 @@ namespace UnityEditor.iOS.Xcode.Stickers
             config.AddProperty("COPY_PHASE_STRIP", "NO");
             config.AddProperty("DEBUG_INFORMATION_FORMAT", "dwarf-with-dsym");
 
-            //try fix bug with iCloud build
             config.AddProperty("DEVELOPMENT_TEAM", teamId);
 
             config.AddProperty("ENABLE_NS_ASSERTIONS", "NO");
